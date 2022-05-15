@@ -13,7 +13,7 @@ public class Unit {
 		
 		try {
 			Class.forName("com.mysql.jdbc.Driver"); 
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/management","root","#rash#97");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/test","root","#rash#97");
 		}
 		catch(Exception e){
 			e.printStackTrace();
